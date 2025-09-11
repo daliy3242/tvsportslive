@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>My Automation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="dark">
+    <div class="main-header">
+        <h1>Automation</h1>
+        <div class="author">❤️Created by Faizan</div>
+
+        <div class="theme-toggle">
+            <label class="switch">
+                <input type="checkbox" id="themeSwitcher">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+    <div class="league-bar">
+        <span onclick="filterBoxes('NFL', this)">NFL</span>
+        <span onclick="filterBoxes('SOCCER', this)">SOCCER</span>
+        <span onclick="filterBoxes('MMA', this)">MMA</span>
+        <span onclick="filterBoxes('BOXING', this)">BOXING</span>
+        <span onclick="filterBoxes('MLB', this)">MLB</span>
+    </div>
+    <div class="container">
+        <div class="box" data-league="NFL" data-link="https://sportsgames.space/sport/nfl/channal-1/24/7/online/">
+            <div class="link-title">NFL Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="NFL" data-link="https://sportsgames.space/sport/nfl/channal-2/24/7/online/">
+            <div class="link-title">NFL Match.2</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="NFL" data-link="https://sportsgames.space/sport/nfl/channal-3/24/7/online/">
+            <div class="link-title">NFL Match.3</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-1/24/7/online/">
+            <div class="link-title">Soccer Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-2/24/7/online/">
+            <div class="link-title">Soccer Match.2</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-3/24/7/online/">
+            <div class="link-title">Soccer Match.3</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-4/24/7/online/">
+            <div class="link-title">Soccer Match.4</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-5/24/7/online/">
+            <div class="link-title">Soccer Match.5</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-1/24/7/online/">
+            <div class="link-title">MMA Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-2/24/7/online/">
+            <div class="link-title">MMA Match.2</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-3/24/7/online/">
+            <div class="link-title">MMA Match.3</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-4/24/7/online/">
+            <div class="link-title">MMA Match.4</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-5/24/7/online/">
+            <div class="link-title">MMA Match.5</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-1/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-2/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-3/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-4/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-5/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="BOXING" data-link="https://sportsgames.space/sport/boxing/channal-1/24/7/online/">
+            <div class="link-title">Boixng Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="BOXING" data-link="https://sportsgames.space/sport/boxing/channal-2/24/7/online/">
+            <div class="link-title">Boixng Match.2</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
