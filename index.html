@@ -1,381 +1,113 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <title>Automation Stream Links</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <title>My Automation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css">
 </head>
-<body>
-  <!-- Header Section -->
-  <div class="main-header">
-    <h1>WatchSports</h1>
-  </div>
+<body class="dark">
+    <div class="main-header">
+        <h1>Automation</h1>
+        <div class="author">❤️Created by Faizan</div>
 
-  <!-- League Filter -->
-  <div class="league-bar">
-    <span class="active" onclick="filterBoxes('SOCCER', this)">SOCCER (15)</span>
-    <span onclick="filterBoxes('NFL', this)">NFL (10)</span>
-    <span onclick="filterBoxes('NCAAF', this)">NCAAF (8)</span>
-    <span onclick="filterBoxes('NCAAB', this)">NCAAB(8)</span>
-    <span onclick="filterBoxes('NHL', this)">NHL (8)</span>
-    <span onclick="filterBoxes('MLB', this)">MLB (7)</span>
-    <span onclick="filterBoxes('MMA', this)">MMA (15)</span>
-    <span onclick="filterBoxes('BOXING', this)">BOXING (10)</span> 
-  </div>
-
-  <!-- Soccer Links Boxes -->
-  <div class="container">
-   <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer1.html">
-      <div class="link-title">Soccer.1</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer2.html">
-      <div class="link-title">Soccer.2</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer3.html">
-      <div class="link-title">Soccer.3</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer4.html">
-      <div class="link-title">Soccer.4</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer5.html">
-      <div class="link-title">Soccer.5</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer6.html">
-      <div class="link-title">Soccer.6</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer7.html">
-      <div class="link-title">Soccer.7</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer8.html">
-      <div class="link-title">Soccer.8</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer9.html">
-      <div class="link-title">Soccer.9</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer10.html">
-      <div class="link-title">Soccer.10</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer11.html">
-      <div class="link-title">Soccer.11</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer12.html">
-      <div class="link-title">Soccer.12</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer13.html">
-      <div class="link-title">Soccer.13</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer14.html">
-      <div class="link-title">Soccer.14</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box" data-league="SOCCER" data-link="https://sports-games1.blogspot.com/p/soccer15.html">
-      <div class="link-title">Soccer.15</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-      <!-- NFL Links Boxes -->
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl1.html">
-      <div class="link-title">NFL.1</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl2.html">
-      <div class="link-title">NFL.2</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl3.html">
-      <div class="link-title">NFL.3</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl4.html">
-      <div class="link-title">NFL.4</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl5.html">
-      <div class="link-title">NFL.5</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl6.html">
-      <div class="link-title">NFL.6</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl7.html">
-      <div class="link-title">NFL.7</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl8.html">
-      <div class="link-title">NFL.8</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl9.html">
-      <div class="link-title">NFL.9</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NFL" data-link="https://sports-games1.blogspot.com/p/nfl10.html">
-      <div class="link-title">NFL.10</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-      <!-- CFB Links Boxes -->
-    <div class="box hidden" data-league="NCAAF" data-link="https://sports-games1.blogspot.com/p/cfb1.html">
-      <div class="link-title">NCAAF.1</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NCAAF" data-link="https://sports-games1.blogspot.com/p/cfb2.html">
-      <div class="link-title">NCAAF.2</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NCAAF" data-link="https://sports-games1.blogspot.com/p/cfb3.html">
-      <div class="link-title">NCAAF.3</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NCAAF" data-link="https://sports-games1.blogspot.com/p/cfb4.html">
-      <div class="link-title">NCAAF.4</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NCAAF" data-link="https://sports-games1.blogspot.com/p/cfb5.html">
-      <div class="link-title">NCAAF.5</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NCAAF" data-link="https://sports-games1.blogspot.com/p/cfb6.html">
-      <div class="link-title">NCAAF.6</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NCAAF" data-link="https://sports-games1.blogspot.com/p/cfb7.html">
-      <div class="link-title">NCAAF.7</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NCAAF" data-link="https://sports-games1.blogspot.com/p/cfb8.html">
-      <div class="link-title">NCAAF.8</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-      <!-- NCAAF Links Boxes -->
-       <div class="box hidden" data-league="NCAAB" data-link="https://sports-games1.blogspot.com/p/ncaaf1.html">
-      <div class="link-title">NCAAB.1</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="NCAAB" data-link="https://sports-games1.blogspot.com/p/ncaaf2.html">
-      <div class="link-title">NCAAB.2</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="NCAAB" data-link="https://sports-games1.blogspot.com/p/ncaaf3.html">
-      <div class="link-title">NCAAB.3</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="NCAAB" data-link="https://sports-games1.blogspot.com/p/ncaaf4.html">
-      <div class="link-title">NCAAB.4</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="NCAAB" data-link="https://sports-games1.blogspot.com/p/ncaaf5.html">
-      <div class="link-title">NCAAB.5</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="NCAAB" data-link="https://sports-games1.blogspot.com/p/ncaaf6.html">
-      <div class="link-title">NCAAB.6</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="NCAAB" data-link="https://sports-games1.blogspot.com/p/ncaaf7.html">
-      <div class="link-title">NCAAB.7</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="NCAAB" data-link="https://sports-games1.blogspot.com/p/ncaaf8.html">
-      <div class="link-title">NCAAB.8</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-      <!-- MLB Links Boxes -->
-     <div class="box hidden" data-league="MLB" data-link="https://sports-games1.blogspot.com/p/mlb1.html">
-      <div class="link-title">MLB.1</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MLB" data-link="https://sports-games1.blogspot.com/p/mlb2.html">
-      <div class="link-title">MLB.2</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MLB" data-link="https://sports-games1.blogspot.com/p/mlb3.html">
-      <div class="link-title">MLB.3</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MLB" data-link="https://sports-games1.blogspot.com/p/mlb4.html">
-      <div class="link-title">MLB.4</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MLB" data-link="https://sports-games1.blogspot.com/p/mlb5.html">
-      <div class="link-title">MLB.5</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-<div class="box hidden" data-league="MLB" data-link="https://sports-games1.blogspot.com/p/mlb6.html">
-      <div class="link-title">MLB.6</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-<div class="box hidden" data-league="MLB" data-link="https://sports-games1.blogspot.com/p/mlb7.html">
-      <div class="link-title">MLB.7</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <!-- MMA Links Boxes -->
-<div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma1.html">
-      <div class="link-title">MMA.1</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma2.html">
-      <div class="link-title">MMA.2</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma3.html">
-      <div class="link-title">MMA.3</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma4.html">
-      <div class="link-title">MMA.4</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma5.html">
-      <div class="link-title">MMA.5</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma6.html">
-      <div class="link-title">MMA.6</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma7.html">
-      <div class="link-title">MMA.7</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma8.html">
-      <div class="link-title">MMA.8</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma9.html">
-      <div class="link-title">MMA.9</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma10.html">
-      <div class="link-title">MMA.10</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma11.html">
-      <div class="link-title">MMA.11</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma12.html">
-      <div class="link-title">MMA.12</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma13.html">
-      <div class="link-title">MMA.13</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma14.html">
-      <div class="link-title">MMA.14</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="MMA" data-link="https://sports-games1.blogspot.com/p/mma15.html">
-      <div class="link-title">MMA.15</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <!-- NHL Links Boxes -->
-<div class="box hidden" data-league="NHL" data-link="https://sports-games1.blogspot.com/p/nhl1.html">
-      <div class="link-title">NHL.1</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NHL" data-link="https://sports-games1.blogspot.com/p/nhl2.html">
-      <div class="link-title">NHL.2</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NHL" data-link="https://sports-games1.blogspot.com/p/nhl3.html">
-      <div class="link-title">NHL.3</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NHL" data-link="https://sports-games1.blogspot.com/p/nhl4.html">
-      <div class="link-title">NHL.4</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NHL" data-link="https://sports-games1.blogspot.com/p/nhl5.html">
-      <div class="link-title">NHL.5</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NHL" data-link="https://sports-games1.blogspot.com/p/nhl6.html">
-      <div class="link-title">NHL.6</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NHL" data-link="https://sports-games1.blogspot.com/p/nhl7.html">
-      <div class="link-title">NHL.7</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <div class="box hidden" data-league="NHL" data-link="https://sports-games1.blogspot.com/p/nhl8.html">
-      <div class="link-title">NHL.8</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-    <!-- BOXING Links Boxes -->
- <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/boxing1.html">
-      <div class="link-title">BOXING.1</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/boxing2.html">
-      <div class="link-title">BOXING.2</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/boxing3.html">
-      <div class="link-title">BOXING.3</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/bxoing4.html">
-      <div class="link-title">BOXING.4</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/boxing5.html">
-      <div class="link-title">BOXING.5</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/boxing5.html">
-      <div class="link-title">BOXING.6</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/boxing6.html">
-      <div class="link-title">BOXING.7</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/boxing7.html">
-      <div class="link-title">BOXING.8</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/boxing8.html">
-      <div class="link-title">BOXING.9</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-     <div class="box hidden" data-league="BOXING" data-link="https://sports-games1.blogspot.com/p/boxing9.html">
-      <div class="link-title">BOXING.10</div>
-      <div class="link-subtext">Click to copy link</div>
-    </div>
-  </div>
-  <script>
-    document.querySelectorAll('.box').forEach(box => {
-      box.addEventListener('click', () => {
-        const link = box.getAttribute('data-link');
-        navigator.clipboard.writeText(link).then(() => {
-          box.classList.add('clicked');
-        });
-      });
-    });
-    function filterBoxes(league, element) {
-      document.querySelectorAll('.league-bar span').forEach(span => {
-        span.classList.remove('active');
-      });
-      element.classList.add('active');
-
-      document.querySelectorAll('.box').forEach(box => {
-        box.classList.toggle('hidden', box.getAttribute('data-league') !== league);
-      });
-    }
-  </script>
-</body></html>
+        <div class="theme-toggle">
+            <label class="switch">
+                <input type="checkbox" id="themeSwitcher">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+    <div class="league-bar">
+        <span onclick="filterBoxes('NFL', this)">NFL</span>
+        <span onclick="filterBoxes('SOCCER', this)">SOCCER</span>
+        <span onclick="filterBoxes('MMA', this)">MMA</span>
+        <span onclick="filterBoxes('BOXING', this)">BOXING</span>
+        <span onclick="filterBoxes('MLB', this)">MLB</span>
+    </div>
+    <div class="container">
+        <div class="box" data-league="NFL" data-link="https://sportsgames.space/sport/nfl/channal-1/24/7/online/">
+            <div class="link-title">NFL Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="NFL" data-link="https://sportsgames.space/sport/nfl/channal-2/24/7/online/">
+            <div class="link-title">NFL Match.2</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="NFL" data-link="https://sportsgames.space/sport/nfl/channal-3/24/7/online/">
+            <div class="link-title">NFL Match.3</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-1/24/7/online/">
+            <div class="link-title">Soccer Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-2/24/7/online/">
+            <div class="link-title">Soccer Match.2</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-3/24/7/online/">
+            <div class="link-title">Soccer Match.3</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-4/24/7/online/">
+            <div class="link-title">Soccer Match.4</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="SOCCER" data-link="https://sportsgames.space/sport/soccer/channal-5/24/7/online/">
+            <div class="link-title">Soccer Match.5</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-1/24/7/online/">
+            <div class="link-title">MMA Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-2/24/7/online/">
+            <div class="link-title">MMA Match.2</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-3/24/7/online/">
+            <div class="link-title">MMA Match.3</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-4/24/7/online/">
+            <div class="link-title">MMA Match.4</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MMA" data-link="https://sportsgames.space/sport/ufc/channal-5/24/7/online/">
+            <div class="link-title">MMA Match.5</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-1/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-2/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-3/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-4/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+        <div class="box" data-league="MLB" data-link="https://sportsgames.space/sport/mlb/channal-5/24/7/online/">
+            <div class="link-title">MLB Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="BOXING" data-link="https://sportsgames.space/sport/boxing/channal-1/24/7/online/">
+            <div class="link-title">Boixng Match.1</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+         <div class="box" data-league="BOXING" data-link="https://sportsgames.space/sport/boxing/channal-2/24/7/online/">
+            <div class="link-title">Boixng Match.2</div>
+            <div class="link-subtext">Click to Copy Match Link.</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
